@@ -1,0 +1,68 @@
+# Ignorar archivos de compilación
+target/
+out/
+
+# Ignorar archivos de configuración de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+hs_err_pid*
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos de IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar archivos de Eclipse
+.project
+.classpath
+.settings/
+*.metadata
+bin/
+
+# Ignorar archivos de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Ignorar archivos de VSCode
+.vscode/
+
+# Ignorar archivos de cobertura de código
+jacoco.exec
+jacoco*.csv
+*.ec
+
+# Ignorar dependencias descargadas por Maven (pueden regenerarse)
+.mvn/
+.m2/
+
+# Ignorar archivos de pruebas y cobertura
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Ignorar archivos de Docker y contenedores (si aplican)
+.dockerignore
+docker-compose.override.yml
+
+
+# Si usas Lombok, puede generar archivos adicionales
+lombok.config
+
+# Ignorar archivos de perfiles de usuario de Maven
+.settings.xml
