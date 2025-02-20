@@ -17,11 +17,13 @@ El objetivo de este ejercicio es el desarrollo de un sistema de guardado de libr
 
 ---
 
-    En este proyecto, trabajarás con la eliminación de entidades, aunque es importante destacar que eliminar registros directamente no siempre es una buena práctica. Para evitar la eliminación definitiva, implementarás un borrado lógico, permitiendo que las entidades puedan ser activadas o desactivadas en lugar de ser eliminadas de la base de datos.
+> En este proyecto, trabajarás con la eliminación de entidades, aunque es importante destacar que eliminar registros directamente no siempre es una buena práctica. Para evitar la eliminación definitiva, implementarás un borrado lógico, permitiendo que las entidades puedan ser activadas o desactivadas en lugar de ser eliminadas de la base de datos.
+>
+>🔹 ¿Cómo lo harás? Cada entidad incluirá un atributo booleano llamado "activo", que estará configurado en true al momento de su creación. Cuando necesites "eliminar" una entidad, simplemente cambiarás su estado a false, evitando la pérdida definitiva de los datos y facilitando su posible reactivación en el futuro.
+>
+> Este enfoque mejora la integridad de la información y te permitirá tener un mejor control sobre los datos almacenados.
 
-    🔹 ¿Cómo lo harás? Cada entidad incluirá un atributo booleano llamado "activo", que estará configurado en true al momento de su creación. Cuando necesites "eliminar" una entidad, simplemente cambiarás su estado a false, evitando la pérdida definitiva de los datos y facilitando su posible reactivación en el futuro.
-
-    Este enfoque mejora la integridad de la información y te permitirá tener un mejor control sobre los datos almacenados.🚀
+> 
 
 ---
 
@@ -29,11 +31,11 @@ El objetivo de este ejercicio es el desarrollo de un sistema de guardado de libr
 
 ![Diagrama ER](docs/images/image.png)
 
-1. ** Libro:** La entidad `libro` modela los libros que están disponibles en la biblioteca. En esta entidad, el atributo `ejemplares` contiene la cantidad total de ejemplares de ese libro, En esta versión BETA no gestionamos transacciones de préstamo. **El `isbn`, será la llave primaria de esa entidad.**
+1. **Libro:** La entidad `libro` modela los libros que están disponibles en la biblioteca. En esta entidad, el atributo `ejemplares` contiene la cantidad total de ejemplares de ese libro, En esta versión BETA no gestionamos transacciones de préstamo. **El `isbn`, será la llave primaria de esa entidad.**
 
-2. ** Autor:** La entidad `autor` modela los autores de libros. El `id`, será la llave primaria de esa entidad, debe ser autogenerado.
+2. **Autor:** La entidad `autor` modela los autores de libros. El `id`, será la llave primaria de esa entidad, debe ser autogenerado.
 
-3. ** Editorial:** La entidad `editorial` modela las editoriales que publican libros.  El `id`, será la llave primaria de esa entidad, debe ser autogenerado.
+3. **Editorial:** La entidad `editorial` modela las editoriales que publican libros.  El `id`, será la llave primaria de esa entidad, debe ser autogenerado.
 
 ---
 
