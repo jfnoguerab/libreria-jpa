@@ -84,4 +84,4 @@ El objetivo de este ejercicio es el desarrollo de un sistema de guardado de libr
 
 ---
 
-© 2024 | Desarrollado por [Fernando Noguera](https://www.linkedin.com/in/jfnoguerab/)
+© 2025 | Desarrollado por [Fernando Noguera](https://www.linkedin.com/in/jfnoguerab/)
